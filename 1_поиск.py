@@ -184,3 +184,5 @@ for index, row in data.iterrows():
 # # Сохранение карты в HTML-файл
 # with колонка2:
 sf.folium_static(m, width=1200, height=1000)
+
+st.write(data)
